@@ -1,2 +1,9 @@
-# the_Tower_of_Hanoi_problem
-The Tower of Hanoi is a classic recursive problem where you must move N disks from one rod to another using a third rod as auxiliary. Only one disk can be moved at a time, and a larger disk can never be placed on top of a smaller one.
+This problem is the Tower of Hanoi problem, a classic recursive problem in computer science and mathematics.
+
+Problem Description: There are three rods (also called pegs or towers) and N disks of different sizes initially stacked on the first rod, with the largest at the bottom and the smallest at the top. The goal is to move all the disks to the third rod, following these rules:
+
+-> Only one disk can be moved at a time.
+-> A larger disk may never be placed on top of a smaller one.
+-> The middle rod (temp) can be used as an auxiliary during the process.
+
+The program reads a positive integer N and prints the sequence of moves required to solve the Tower of Hanoi problem for N disks, using a recursive approach.
